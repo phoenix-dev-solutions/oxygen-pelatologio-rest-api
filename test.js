@@ -1,4 +1,4 @@
-const OxygenRestApi = require('./index').default;
+const OxygenRestApi = require('./index');
 
 const oxygen = new OxygenRestApi({
   apiKey: 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX',

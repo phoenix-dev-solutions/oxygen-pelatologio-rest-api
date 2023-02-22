@@ -1,6 +1,6 @@
 {
   "name": "oxygen-pelatologio-rest-api",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A Node.js wrapper for the Oxygen Pelatologion  REST API",
   "main": "index.js",
   "scripts": {

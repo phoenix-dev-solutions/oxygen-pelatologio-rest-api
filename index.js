@@ -158,12 +158,11 @@ class OxygenRestApi {
     return this._request('put', endpoint, data, params);
   }
 }
+module.exports = OxygenRestApi;
+
 /**
  * Options Exception.
  */
-
-exports.default = OxygenRestApi;
-
 class OptionsException {
   /**
    * Constructor.
