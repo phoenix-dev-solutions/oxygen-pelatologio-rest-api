@@ -55,32 +55,32 @@ const oxygen = new OxygenRestApi({
 - `.get(endpoint)`
 - `.get(endpoint, params)`
 
-| Params     | Type     | Description                                                          |
-| ---------- | -------- | -------------------------------------------------------------------- |
-| `endpoint` | `String` | Oxygen Pelatologio API endpoint, example: `customers` or `orders/12` |
-| `params`   | `Object` | Query strings params, example: `{ per_page: 20 }`                    |
+| Params     | Type     | Description                                                           |
+| ---------- | -------- | --------------------------------------------------------------------- |
+| `endpoint` | `String` | Oxygen Pelatologio API endpoint, example: `contacts` or `contacts/12` |
+| `params`   | `Object` | Query strings params, example: `{ code: "1000" }`                     |
 
 ### POST
 
 - `.post(endpoint, data)`
 - `.post(endpoint, data, params)`
 
-| Params     | Type     | Description                                                       |
-| ---------- | -------- | ----------------------------------------------------------------- |
-| `endpoint` | `String` | Oxygen Pelatologio API endpoint, example: `customers` or `orders` |
-| `data`     | `Object` | JS object to be converted into JSON and sent in the request       |
-| `params`   | `Object` | Query strings params                                              |
+| Params     | Type     | Description                                                        |
+| ---------- | -------- | ------------------------------------------------------------------ |
+| `endpoint` | `String` | Oxygen Pelatologio API endpoint, example: `contacts` or `products` |
+| `data`     | `Object` | JS object to be converted into JSON and sent in the request        |
+| `params`   | `Object` | Query strings params                                               |
 
 ### PUT
 
 - `.put(endpoint, data)`
 - `.put(endpoint, data, params)`
 
-| Params     | Type     | Description                                                              |
-| ---------- | -------- | ------------------------------------------------------------------------ |
-| `endpoint` | `String` | Oxygen Pelatologio API endpoint, example: `customers/1` or `orders/1234` |
-| `data`     | `Object` | JS object to be converted into JSON and sent in the request              |
-| `params`   | `Object` | Query strings params                                                     |
+| Params     | Type     | Description                                                               |
+| ---------- | -------- | ------------------------------------------------------------------------- |
+| `endpoint` | `String` | Oxygen Pelatologio API endpoint, example: `contacts/1` or `products/1234` |
+| `data`     | `Object` | JS object to be converted into JSON and sent in the request               |
+| `params`   | `Object` | Query strings params                                                      |
 
 ## Example of use
 
@@ -180,4 +180,4 @@ oxygen
 ## Release History
 
 - 2023-02-22 - v1.0.0 - Initial release.
-- 2023-02-23 - v1.0.1 - README.md
+- 2023-02-23 - v1.0.2 - README.md
