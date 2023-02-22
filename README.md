@@ -28,7 +28,7 @@ Check out the Oxygen Pelatologio API endpoints and data that can be manipulated 
 Setup for the REST API integration :
 
 ```js
-var OxygenRestApi = require('oxygen-pelatologio-rest-api');
+var OxygenRestApi = require('oxygen-pelatologio-rest-api').default;
 
 const oxygen = new OxygenRestApi({
   apiKey: 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX',
