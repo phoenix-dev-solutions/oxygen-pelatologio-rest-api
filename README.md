@@ -31,7 +31,7 @@ Setup for the REST API integration :
 var OxygenRestApi = require('oxygen-pelatologio-rest-api');
 
 const oxygen = new OxygenRestApi({
-  apiKey: 'XX_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+  apiKey: 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX',
   version: 'v1',
   sandbox: true,
 });
@@ -88,7 +88,7 @@ const oxygen = new OxygenRestApi({
 const OxygenRestApi = require('oxygen-pelatologio-rest-api');
 
 const oxygen = new OxygenRestApi({
-  apiKey: 'XX_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+  apiKey: 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX',
   version: 'v1',
   sandbox: true,
 });
@@ -175,8 +175,8 @@ oxygen
   .finally(() => {
     // Always executed.
   });
+```
 
 ## Release History
 
 - 2023-02-22 - v1.0.0 - Initial release.
-```
