@@ -180,3 +180,4 @@ oxygen
 ## Release History
 
 - 2023-02-22 - v1.0.0 - Initial release.
+- 2023-02-23 - v1.0.1 - README.md
