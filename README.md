@@ -2,10 +2,6 @@
 
 A Node.js client for the Oxygen Pelatologio REST API. Easily interact with the Oxygen Pelatologio REST API using this library.
 
-<!-- [![build status](https://secure.travis-ci.org/woocommerce/wc-api-node.svg)](http://travis-ci.org/woocommerce/wc-api-node)
-[![dependency status](https://david-dm.org/woocommerce/wc-api-node.svg)](https://david-dm.org/woocommerce/wc-api-node)
-[![npm version](https://img.shields.io/npm/v/woocommerce-api.svg)](https://www.npmjs.com/package/woocommerce-api) -->
-
 ## Installation
 
 ```
@@ -180,5 +176,7 @@ oxygen
 ## Release History
 
 - 2023-02-22 - v1.0.0 - Initial release.
-- 2023-02-23 - v1.0.2 - README.md
+- 2023-02-23 - v1.0.1 - README.md
 - 2023-02-23 - v1.0.2 - Change export type
+- 2023-02-23 - v1.0.3 - Change export type
+- 2023-02-23 - v1.0.4 - README.md
