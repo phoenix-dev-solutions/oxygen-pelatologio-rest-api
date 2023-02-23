@@ -1,6 +1,7 @@
 'use strict';
 
 const axios = require('axios');
+const pjson = require('./package.json');
 
 /**
  * Oxygen Pelatologio REST API wrapper
@@ -24,7 +25,7 @@ class OxygenRestApi {
       throw new OptionsException('ApiKey is required');
     }
 
-    this.classVersion = '1.0.0';
+    this.classVersion = pjson.version;
 
     this._setDefaultsOptions(opt);
   }

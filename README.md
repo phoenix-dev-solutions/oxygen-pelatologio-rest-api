@@ -9,7 +9,7 @@ A Node.js client for the Oxygen Pelatologio REST API. Easily interact with the O
 ## Installation
 
 ```
-npm install --save oxygen-pelatologio-rest-api
+npm install oxygen-pelatologio-rest-api
 ```
 
 ```
